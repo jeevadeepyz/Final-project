@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mate+SC&family=Open+Sans:wght@300&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-size: 17px;
+     font-family: "Philosopher", sans-serif;
+     font-weight: 500;
+     font-style: normal;
+      
+     
+}
+.navbar
+{
+     background-color:#ffff !important;
+     box-shadow: 0px 0px 20px #bdc3c7;
+     /* height: 90px; */
+
+ }
+ .navbar-brand img
+{
+     position: relative;
+     z-index: -1;
+     left: 10px;
+     top: -6px; 
+}
+
+.navbar-brand{
+     color:#3c40c6 !important;
+}
+
+.navbar
+{
+     position: sticky !important;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 100;
+}
+.nav-item .nav-link:after 
+{
+ content: "";
+ width: 0%;
+ display: block;
+ height: 2px;
+ transition: all 0.3s ease;
+ margin-top: 2px;
+ transition: all 300ms ease;
+}
+.nav-item .nav-link:after 
+{
+     bottom: 25%;
+     right: 0;
+}
+.nav-item .nav-link:hover::after 
+{
+     width: 100%;
+     height: 2px;
+     bottom: 25%;
+     background-color: #06d117;
+     
+}
+.nav-link:hover
+{
+     color:#0134a1 !important;
+}
+
+.hu
+{
+     text-decoration: underline green;
+     color: #270acc;
+}
+.dioc {
+     display: flex;
+   }
+   .dioc a{
+     width: 45px;
+     height:45px;
+      border-radius: 10px; 
+      background: linear-gradient(225deg, #e6e6e6, #ffffff);
+     box-shadow:  0px 0px 5px #b6b1b1,
+                  0px 0px 5px #c7c1c1; 
+     /* background-color: #06d117; */
+     border-radius: 50%;
+     margin: 0px 5px;
+     text-align: center;
+     /* justify-content: center;
+     align-items: center;
+     display: flex;
+     */
+     line-height: 47px;
+     color: rgba(0, 0, 0, 0.795);
+   } 
+   
+   .dioc :nth-child(1) :hover{
+   
+     color: #06d117;
+     transition: 0.1s;
+   
+   }
+   .dioc :hover:nth-child(2){
+     color: #270acc;
+     transition: 0.1s;
+   
+   }
+   .dioc :hover:nth-child(3){
+     transition: 0.1s;
+     color: #E4405F;
+   }
+   
+   .dioc :hover:nth-child(4){
+     transition: 0.3s;
+     color: black;
+     /* transform: scale(1.1); */
+   }
+   
+
+
+
+.ficons a::after
+{
+     content: '';
+     position: relative; 
+     bottom: -2px;
+     width: 0%;
+     height: 2px;
+     background: #333;
+     transition: all 0.45s;
+     display: block; 
+}
+   .ficons a::after
+{
+      bottom: 25%;
+      right: 0; 
+      
+}
+   .ficons a:hover::after
+   {
+     width: 30%;
+     left: 0;
+     background-color: #06d117;
+     color:blue !important;
+   }
+   .ficons a:hover{
+     color: #e79f02 !important; 
+   }
+   .hu{
+     text-decoration: underline green;
+     color: #270acc;
+     
+   }
+
+
